@@ -1,12 +1,10 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 int main(){
-string name;
-cout << "Enter name>> ";
-cin >> name;
-cout << "Hello world from " << name <<"!";
+std::string name; // Объявление строки с именем (@name)
+std::cout << "Enter name>> "; // Вывод запроса имени (@name)
+std::cin >> name; // Получение имени (@name) с клавиатуры 
+std::cout << "Hello world from " << name <<"!"; //Печать сообщения Hello world from @name 
 return 0;
 }
